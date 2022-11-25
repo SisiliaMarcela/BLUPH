@@ -31,7 +31,7 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>#</th><th>Id Program</th><th>Program Namee</th><th>Actions</th>
+                                        <th>#</th><th>Id Program</th><th>Program Name</th><th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>

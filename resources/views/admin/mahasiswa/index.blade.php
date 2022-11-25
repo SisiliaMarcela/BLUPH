@@ -31,7 +31,7 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>#</th><th>Nim</th><th>Nama</th><th>Kelas</th><th>Actions</th>
+                                        <th>#</th><th>NIM</th><th>Nama</th><th>Kelas</th><th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
