@@ -28,7 +28,7 @@
                                     <tr>
                                         <th>ID</th><td>{{ $mahasiswa->id }}</td>
                                     </tr>
-                                    <tr><th> Nim </th><td> {{ $mahasiswa->nim }} </td></tr><tr><th> Nama </th><td> {{ $mahasiswa->nama }} </td></tr><tr><th> Kelas </th><td> {{ $mahasiswa->kelas }} </td></tr>
+                                    <tr><th> NIM </th><td> {{ $mahasiswa->nim }} </td></tr><tr><th> Nama </th><td> {{ $mahasiswa->nama }} </td></tr><tr><th> Kelas </th><td> {{ $mahasiswa->kelas }} </td></tr>
                                 </tbody>
                             </table>
                         </div>
