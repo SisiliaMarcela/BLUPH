@@ -31,14 +31,14 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>#</th><th>Id Program</th><th>Program Name</th><th>Actions</th>
+                                        <th>#</th><th>ID Program</th><th>Program Name</th><th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                 @foreach($program as $item)
                                     <tr>
                                         <td>{{ $loop->iteration }}</td>
-                                        <td>{{ $item->id_program }}</td><td>{{ $item->program_namee }}</td>
+                                        <td>{{ $item->id_program }}</td><td>{{ $item->program_name }}</td>
                                         <td>
                                             <a href="{{ url('/admin/program/' . $item->id) }}" title="View program"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
                                             <a href="{{ url('/admin/program/' . $item->id . '/edit') }}" title="Edit program"><button class="btn btn-primary btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</button></a>

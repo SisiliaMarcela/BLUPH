@@ -31,7 +31,7 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>#</th><th>Id Location</th><th>Date</th><th>Limit</th><th>Actions</th>
+                                        <th>#</th><th>ID Location</th><th>Date</th><th>Limit</th><th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>

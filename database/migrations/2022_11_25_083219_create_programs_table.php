@@ -16,7 +16,7 @@ class CreateProgramsTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->integer('id_program')->nullable();
-            $table->string('program_namee')->nullable();
+            $table->varchar('program_name')->nullable();
             });
     }
 

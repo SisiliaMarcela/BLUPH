@@ -26,3 +26,14 @@ Route::resource('admin/program', 'App\\Http\\Controllers\\Admin\programControlle
 Route::resource('admin/admin', 'App\\Http\\Controllers\\Admin\adminController');
 Route::resource('admin/order', 'App\\Http\\Controllers\\Admin\orderController');
 Route::resource('admin/location', 'App\\Http\\Controllers\\Admin\locationController');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
