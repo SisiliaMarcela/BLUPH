@@ -19,7 +19,7 @@ class CreateMahasiswasTable extends Migration
             $table->string('nama')->nullable();
             $table->string('kelas')->nullable();
             $table->string('email')->nullable();
-            $table->integer('id_proram')->nullable();
+            $table->integer('id_program')->nullable();
             });
     }
 
@@ -30,6 +30,6 @@ class CreateMahasiswasTable extends Migration
      */
     public function down()
     {
-        Schema::drop('mahasiswas');
+        Schema::drop('mahasiswa');
     }
 }

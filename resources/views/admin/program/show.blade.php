@@ -28,7 +28,7 @@
                                     <tr>
                                         <th>ID</th><td>{{ $program->id }}</td>
                                     </tr>
-                                    <tr><th> Id Program </th><td> {{ $program->id_program }} </td></tr><tr><th> Program Namee </th><td> {{ $program->program_namee }} </td></tr>
+                                    <tr><th> Id Program </th><td> {{ $program->id_program }} </td></tr><tr><th> Program Name </th><td> {{ $program->program_name }} </td></tr>
                                 </tbody>
                             </table>
                         </div>

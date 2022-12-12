@@ -14,6 +14,14 @@
                 </p>
              </a>
            </li>
+          <li class="nav-item">
+            <a href="/laporan/mahasiswa" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>
+                Laporan 
+               </p>
+            </a>
+           </li>
            <li class="nav-item">
              <a href="/admin/program" class="nav-link">
                <i class="nav-icon fas fa-file"></i>
@@ -27,6 +35,14 @@
                <i class="nav-icon fas fa-star"></i>
                <p>
                  Order
+                </p>
+             </a>
+           </li>
+           <li class="nav-item">
+             <a href="admin/replacement-lounge" class="nav-link">
+               <i class="nav-icon fas fa-file"></i>
+               <p>
+                 Replacement Lounge
                 </p>
              </a>
            </li>

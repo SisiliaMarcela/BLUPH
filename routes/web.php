@@ -1,5 +1,8 @@
 <?php
 
+use\App\Http\Controllers\LaporanController;
+use App\Http\Controllers\mahasiswaController;
+use App\Http\Controllers\mahasiswapdf;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +18,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::controller(mahasiswaController::class)->group(function () {
+    Route::get('/mahasiswa', 'index');
+    Route::get('/mahasiswa/{id}', 'show');
+    Route::post('/mahasiswa', 'store');
+    Route::get('/mahasiswa/new', 'create');
+    Route::delete('/mahasiswa/{id}', 'destroy');
+    Route::get('/mahasiswa/{id}', 'edit');
+    Route::put('/mahasiswa/{id}', 'update');
 });
 
 Route::resource('admin/customized_limit', 'App\\Http\\Controllers\\Admin\customized_limitController');
@@ -37,3 +50,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('admin/replacement-lounge', 'App\\Http\\Controllers\\Admin\replacementLoungeController');
+
+Route::get('/laporan/mahasiswa',[LaporanController::class,'index']);
+Route::get('/laporan/mahasiswa/pdf',[LaporanController::class,'cetak_pdf']);

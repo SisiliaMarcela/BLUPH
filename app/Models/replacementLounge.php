@@ -4,14 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class mahasiswa extends Model
+class replacementLounge extends Model
 {
     /**
      * The database table used by the model.
      *
      * @var string
      */
-    protected $table = 'mahasiswas';
+    protected $table = 'replacement_lounges';
 
     /**
     * The database primary key value.
@@ -25,7 +25,7 @@ class mahasiswa extends Model
      *
      * @var array
      */
-    protected $fillable = ['nim', 'nama', 'kelas', 'email', 'id_program'];
+    protected $fillable = ['nama_student', 'studentID', 'intake', 'jadwal_jam_kuliah', 'alasan_melakukan_replacement_class'];
 
     
 }
