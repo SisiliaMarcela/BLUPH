@@ -1,64 +1,19 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+1.  Tambahkan satu buah table pada web aplikasi kemudian buatlah halaman CRUD dengan menggunakan CRUD generator, serta tambahkan menu untuk mengakses tabletersebut pada sidebar.
+= Table dan halam CRUD yang saya tambah yaitu "Replacement Lounge", dengan CRUD Generator. Table yang saya buat bertujuan untuk agar siswa yang sudah membooking lounge tesebut bisa diubah sesuai jadwal yang sudah ditentukan
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+2.  Buatlah sebuah view untuk melakukan analisis data yang relevan dengan topik final project anda, simpan queryview tersebut kedalam file queryUAS.sql.
+= view analisis data tersebut berupa data-data mahasiswa yang sudah ada dari file krs yang pak ade berikan serta nama dan mahasiswa dapat di input kembali jika kita klik tombol create pada halaman CRUD yang sudah tersedia seingga kita bisa menginput data mahasiswa yang baru.
 
-## About Laravel
+3.  Buatlah sebuah antarmuka untuk menampilkan view pada soal 2, kemudian tambahkan tombol untuk mencetaknyakedalam format laporan pdf. Sertakan logo UPH dan nama berserta studentID anda pada header laporan.
+= untuk DompPDF yang pak ade ajarkan di sesi sebelumnya ada di kofugurasi dibagian config. Pada config, app.php (scroll paling bawah) di PDF dari pdh dompdf sama di bagian (scroll di nomor 177) provider tambahkan classnya untuk dompdf untuk kofigurasi. Untuk Nama dan StudentID saya tambahkan code nya di bagian "mahasiswa.blade.php" untuk bagian logo uph saya mengalami kesulitan mengakses foto ke dalam code dan foto tersebut tidak muncul berikut code yang saya buat seperti dibawah:
+"<img src='{{ asset("adminlte/dist/img/logo-uph.png") }}' alt="User Avatar" class="img-size-50 img-circle mr-10">" 
+Code tersebut sudah saya ikuti di video teams tapi foto tersebut tidak muncul. Banyak tutorial yang saya ikuti di youtube tapi tidak membuahkan hasil
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+4.  Buat validasi data untuk halaman insert dan update soal nomor 1.
+= Semua halaman CRUD sudah saya periksa dan ada beberapa typo dan sudah saya revisi
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+5.  Simpan kode program beserta queryUAS.sqlke public repository github, tambahkan file readme.md yang berisikan:
+o   Nama dan StudentID.
+o   Soal dan penjelasan solusi untuk setiap soal beserta nama file yang berubah.
+= Dari nomor 1 sammpai nomor 5 setiap soal sudah saya jelaskan berseta apa saja yang saya ubah dan revisi.
+Setiap saya selesai code project ini saya selalu push ke github.
