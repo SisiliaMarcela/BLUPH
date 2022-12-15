@@ -1,3 +1,7 @@
+Nama    : Sisilia Marcela
+Nim     : 03081190050
+Kelas   : 19SI2
+
 1.  Tambahkan satu buah table pada web aplikasi kemudian buatlah halaman CRUD dengan menggunakan CRUD generator, serta tambahkan menu untuk mengakses tabletersebut pada sidebar.
 = Table dan halam CRUD yang saya tambah yaitu "Replacement Lounge", dengan CRUD Generator. Table yang saya buat bertujuan untuk agar siswa yang sudah membooking lounge tesebut bisa diubah sesuai jadwal yang sudah ditentukan
 
@@ -13,5 +17,5 @@
 5.  Simpan kode program beserta queryUAS.sqlke public repository github, tambahkan file readme.md yang berisikan:
 o   Nama dan StudentID.
 o   Soal dan penjelasan solusi untuk setiap soal beserta nama file yang berubah.
-= Dari nomor 1 sammpai nomor 5 setiap soal sudah saya jelaskan berseta apa saja yang saya ubah dan revisi.
-Setiap saya selesai code project ini saya selalu push ke github.
+= Dari nomor 1 sampai nomor 5 setiap soal sudah saya jelaskan berseta apa saja yang saya ubah dan revisi.
+Setiap saya selesai code project ini saya selalu push ke github dan ketika saya submit file SQL ke moodle telah terjadi error, oleh karena di moodle hanya bisa upload 1 file itu sebabnya saya sudah push ke github file SQL dengan format nama "queryUAS.sql".
