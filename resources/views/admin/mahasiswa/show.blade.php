@@ -11,7 +11,7 @@
                     <div class="card-header">mahasiswa {{ $mahasiswa->id }}</div>
                     <div class="card-body">
 
-                        <a href="{{ url('/admin/mahasiswa') }}" title="Back"><button class="btn btn-warning btn-sm"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button></a>
+                        <a href="{{ url('/admin/mahasiswa') }}" title="Back"><button class="btn btn-warning btn-sm"></i> Back</button></a>
                         <a href="{{ url('/admin/mahasiswa/' . $mahasiswa->id . '/edit') }}" title="Edit mahasiswa"><button class="btn btn-primary btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</button></a>
 
                         <form method="POST" action="{{ url('admin/mahasiswa' . '/' . $mahasiswa->id) }}" accept-charset="UTF-8" style="display:inline">

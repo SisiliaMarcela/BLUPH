@@ -8,7 +8,7 @@
         <body>
         <h2></h2>
         <div class="media">
-        <img src='{{ asset("adminlte/dist/img/logo-uph.png") }}' alt="User Avatar" class="img-size-50 img-circle mr-10"> 
+        <img src='{{ asset("https://cdn.discordapp.com/attachments/1048665616510369823/1052842872392650792/Logo.png") }}' alt="User Avatar" class="img-size-50 img-circle mr-10"> 
         <div class="media-body">
         <h3 class="dropdown-item-title">
         Name : Sisilia Marcela
@@ -16,11 +16,11 @@
         StudentID : 03081190050
         <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
         </h3>
-        <p class="text-sm">19SI2 | Bussiness Aplication Programming</p>
-        <p class="text-sm text-muted"><i class="far fa-file mr-1"></i> Final Exam Bussiness Aplication Programming</p>
+        <p class="text-sm">19SI2 | Business Aplication Programming</p>
+        <p class="text-sm text-muted"><i class="far fa-file mr-1"></i> Final Exam Business Aplication Programming</p>
         </div>
         </div>
-        <hr
+        <hr>
         </html>
         <style>
             body{
